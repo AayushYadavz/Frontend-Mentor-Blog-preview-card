@@ -12,12 +12,12 @@ body{
     justify-content: center;
     align-items: center;
     font-family: "Figtree", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .card{
     background-color: hsl(0, 0%, 100%);
-    max-width: 330px;
+    max-width: 20.625rem;
     padding: 20px;
     border-radius: 15px;
     border: 2px solid black; 
@@ -56,6 +56,11 @@ h1{
     transition: all .2s ease;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .para{
     color: hsl(0, 0%, 50%);
     font-weight: 500;
@@ -88,7 +93,7 @@ h1:hover{
     box-shadow: 15px 15px 0px 0px rgba(0,0,0,1);
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 26.5625rem) {
     body{
         margin: 5rem 2rem;
     }
